@@ -6,29 +6,48 @@
 }
 
 body {
-    background-color:black;
-    color: white;
     box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
 }
 
-.cabecalho__menu__link{
+
+.cabecalho__menu {
     display: flex;
-    margin: 5px;
-    color: blueviolet;
-    padding: 6%;
-    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho__menu__link {
+    padding: 10px 15px;
+}
+
+
+.cabecalho__menu__link {
+    font-size: 18px;
+    color: #333;
+    margin: 0 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.cabecalho__menu__link:hover {
+    color: #007bff;
 }
 
 .apresentacao {
-    padding: 8% 15%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+        padding: 8% 15%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
 }
 
 .rodape {
-    background-color: #22D4FD;
-    color: #000000;
-    padding: 24px;
-    font-family: 'Montserrat', sans-serif;
+        padding: 24px;
+        color: #000000;
+        background-color: #22D4FD;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
 }
